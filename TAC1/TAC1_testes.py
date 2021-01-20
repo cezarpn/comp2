@@ -20,7 +20,7 @@ for x in range(0, len(seq)):
     elif seq[x] != seq[x - 1]:
         if contador >= 3:
             lista.append((seq[x - 1], contador, posicao))
-            contador=1
+            contador = 1
         else:
-            contador=1
+            contador = 1
 print(lista)
